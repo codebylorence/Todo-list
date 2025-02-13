@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.cdnfonts.com/css/bernoru" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/coco-gothic" rel="stylesheet">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="todonote.css">
+  <title>Todo List Project</title>
+</head>
+<body>
+
+  <Header>
+    <div class="left-section">
+      <p class="logo">Todo-List</p>
+    </div>
+    <div class="right-section">
+      <input type="text" placeholder="Enter todo name" class="input-name js-input-name">
+      <input type="date" class="js-input-date">
+      <!-- <div class="dropdown">
+        <p>Select color</p>
+        <img src="icons/down-chevron.png" class="drop-icon">
+      </div> -->
+      <label for="">
+        <select class="dropdown select-js">
+          <option value="Lime">Lime</option>
+          <option value="Aqua">Aqua</option>
+          <option value="Orange">Orange</option>
+        </select>
+      </label>
+      <button class="add-button js-add-button"><img src="icons/plus-solid.svg" class="add-icon"></button>
+    </div>
+  </Header>
+
+  <div class="notes-container js-notes"></div>
+
+  <script src="todo.js"></script>
+</body>
+</html>

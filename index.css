@@ -1,0 +1,11 @@
+* {
+  font-family: 'Coco Gothic', sans-serif;
+  font-family: 'Coco Gothic Alternate', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dff2eb;
+  margin: 200px 100px 0px 100px;
+}

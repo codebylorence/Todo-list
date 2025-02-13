@@ -1,0 +1,60 @@
+.notes-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  gap: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  border: 1px solid;
+  padding: 50px 10px 0px 10px;
+}
+
+.note-header {  
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 298px; 
+  height: 40px;
+  background-color: white;
+  border-bottom:  1px solid;
+  position: absolute;
+  right: 0;
+  left: 1px;
+  top: 1px;
+  z-index: 1;
+}
+
+.text-space {
+  width: 10px;
+  padding: 10px;
+}
+
+.delete-button {
+  width: 50px;
+  padding-left: 60px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 30px;
+}
+
+.color-orange{
+  background-color: orange;
+}
+
+.color-lime{
+  background-color: lime;
+}
+
+.color-aqua{
+  background-color: aqua;
+}
