@@ -6,32 +6,47 @@
 
 Header {
   display: flex;
-  height: 100px;
   background-color: #dff2eb;
-  border-bottom: 1px solid;
   align-items: center;
-  padding-left: 100px;
-  position: fixed;;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
+  gap: 20px;
 }
 
 .left-section {
-  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 
 .right-section {
   display: flex;
-  justify-content: end;
-  padding-right: 130px;
-  flex: 1;
+  gap: 20px;
+  justify-content: center;
+  flex: 2;
+}
+
+@media (max-width: 1085px) {
+  Header {
+    flex-direction: column;
+
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .input-name, .dropdown, input[type="date"] {
   height: 35px;
-  margin-left: 30px;
   border-radius: 12px;
   border: 1px solid;
 }
@@ -87,7 +102,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-radius: 12px;
   border: none;
   padding-top: 5px;
-  margin-left: 29px ;
 }
 
 .add-button:hover {
