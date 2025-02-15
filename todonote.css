@@ -35,7 +35,7 @@
 .notes {
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 100%;
   border: 1px solid;
   padding: 50px 10px 0px 10px;
 }
