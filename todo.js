@@ -14,7 +14,7 @@ function renderTodoList() {
                       renderTodoList();
                     " class="delete-button"><img src="icons/delete.png" class="delete-icon"></a>
                   </div>
-                  <div contenteditable="true" style="overflow: hidden;" class="notes dd-js ${color}">
+                  <div contenteditable="true" style="overflow: hidden; " class="notes dd-js ${color}">${name}
                   </div>
                 </div>
                 `
